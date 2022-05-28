@@ -92,6 +92,7 @@
     /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
    
 }
+
  .card {
     background-color: #FFFFFF !important;
     border: 1px solid #E5E5E5 !important;
@@ -258,12 +259,12 @@
         padding: 10px !important;
         background-color: #DFF3FC !important;
         background-color: transparent !important;
-    z-index: 1 !important;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-    border: 1px solid #E5E5E5 !important;
-    border-radius: 0px !important;
-    position: relative !important;
-    color: #000000 !important;
+        z-index: 1 !important;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+        border: 1px solid #E5E5E5 !important;
+        border-radius: 0px !important;
+        position: relative !important;
+        color: #000000 !important;
     }
     #message{
    background-image: url("../images/doctors.webp") !important;
@@ -314,4 +315,39 @@
        
     }
     
+}
+@media only screen and (max-width: 767px) and (min-width: 576px){
+    #showcase {
+        background-image: url("../images/stethscope.webp") !important;
+        background-size: cover !important;
+        background-position: relative !important;
+        background-repeat: no-repeat !important;
+        text-align: center !important;
+        font-size: 1em !important;
+        font-weight: bold !important;
+        color: #e70808 !important;
+        padding: 10px !important;
+        min-height:75vh !important;
+
+     }
+     #about-us{
+        background-image: url("../images/male-doctor-animation.jpg");
+        background-size: cover !important;
+        background-position: relative !important;
+        background-repeat: no-repeat !important;
+        text-align: center !important;
+        font-size: 1em !important;
+        font-weight: bold !important;
+        color: #e70808 !important;
+        padding: 10px !important;
+    }
+}
+@media only screen and (max-width: 851px) and (min-width: 768px){
+    /* #showcase {
+        height:auto !important;
+        margin-bottom:auto !important;
+        position: relative !important;
+        overflow: hidden !important;
+     } */
+        
 }
