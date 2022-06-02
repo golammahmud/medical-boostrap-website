@@ -21,18 +21,25 @@
 .navbar .nav-link:hover{
     box-shadow: 0px 20px 50px 15px grey;
 }
+
 .navbar-toggler {
     border:none !important;
     background-color: #0ea86b !important;
     border: 1px solid #5d6168 !important;
     border-radius:20px !important;
     margin-right: 10px !important;
-    position: relative !important;
-    
+    position: relative !important;   
     z-index: 1 !important;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
+.offcanvas-header{
+    background-color: #0F3266 !important;
+    color: #ffffff !important;
+    padding: 10px !important;
+    border-bottom: 1px solid #feffff !important;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
 
 
 #showcase {
@@ -307,6 +314,29 @@
         margin:auto auto !important;
         width: 100% !important;
     }
+    .navbar .nav-link {
+        margin-right: 20px;
+        padding:  10px !important;
+        background-color: #0F3266 !important;
+        border: 0px solid #feffff !important;
+        border-radius:50px !important;
+        position: relative !important;
+        color: #ffffff !important;
+        z-index: 2 !important;
+        margin: 15px 10px !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+        text-align: center !important;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    }
+    .offcanvas-body{
+        background-color: #3e68a5 !important;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    }
+    .offcanvas{
+        background-color: #3e68a5 !important;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    }
 }
     
 
@@ -314,6 +344,21 @@
     .newsletter-input{
         width: 50% !important;
        
+    }
+    .navbar .nav-link {
+        margin-right: 20px;
+        padding:  10px !important;
+        background-color: #0F3266 !important;
+        border: 0px solid #feffff !important;
+        border-radius:50px !important;
+        position: relative !important;
+        color: #ffffff !important;
+        z-index: 2 !important;
+        margin: 15px 10px !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+        text-align: center !important;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     }
     
 }
